@@ -39,7 +39,7 @@ public class Menu {
                 case 10 -> juego.start(sc);
                 case 11 -> {
                     running = false;
-                    System.out.println("Saliendo... ¡Éxito en tu entrega!");
+                    System.out.println("Saliendo... ¡Éxito!");
                 }
                 default -> System.out.println("Opción no válida.");
             }
